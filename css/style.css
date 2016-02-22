@@ -119,43 +119,6 @@ min-height: 726px;
 
 }
 
-/* 
-background: linear-gradient(90deg, #20FFFF, #206BFF);
-p{
-    margin: 0px;
-    line-height: 50px;
-    width: 100%;
-    
-}
-/*
-.padding-section{
-    padding-top: 70px;
-
-
- p .legende{
-    display: inline-block;
-    height: 50px;
-    line-height: 16px;
-    position: relative;
-    top: 7px;
-}
- 
-.a-box:hover p{
-    transition: 100ms ease-in; 
-    color: #206BFF;
-    font-weight: bold;
-    border-bottom: 1px solid;
-}
-.a-box p{
-    border-bottom: 1px solid white ;
-}
-*/
-
-
-
-
-
-
 /* PROJETS */
 
 .projet{
@@ -195,20 +158,6 @@ p{
     color: white;
     
 }
-
-/* a#legende {
-  
-  -webkit-transition: border 500ms ease;
-  -moz-transition: border 500ms ease;
-  -ms-transition: border 500ms ease;
-  -o-transition: border 500ms ease;
-  transition: border 500ms ease; 
-}
-a#legende:hover {
-  border-bottom: 1px solid rgba(192, 192, 192, 1);
-}
- */
-
 
 /* STYLES TITRES */
 h1{

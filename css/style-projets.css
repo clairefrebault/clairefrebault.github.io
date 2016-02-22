@@ -100,15 +100,6 @@ min-height: 720px;
 background: linear-gradient(90deg, #20FFFF, #206BFF);
     animation: 1s, ease;
 }
-
-/* p{
-    margin: 0px;
-    line-height: 50px;
-    width: 100%;
-    
-}*/ 
-
-
 .projet{
     margin-top: 0px;
     padding-bottom: 20px;
@@ -200,13 +191,6 @@ h2{
 .hover-image:hover{
     background-color: aqua;
 }
-
-
-/* #page{
-    min-height: 600px;
-    width: 100%;
-    margin-bottom: 100px;
-} */
 
 .bx-wrapper .bx-viewport{
      height: 525px !important;
