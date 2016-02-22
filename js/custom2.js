@@ -6,6 +6,7 @@ $('#page').css('min-height', winHeight); // <header> prend la hauteur de la fen√
 
 $(document).ready(function(){
     $('.bxslider').bxSlider({
-      adaptiveHeight: true
+      adaptiveHeight: true,
+    auto : true,
     });
 });
