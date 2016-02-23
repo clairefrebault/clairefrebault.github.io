@@ -20,6 +20,7 @@ footer{
 html, body {
   padding:0;
   margin:0;
+    height: 100%;
 }
 
 
@@ -113,9 +114,11 @@ li a{
     line-height: 2;
 }
 header{
-min-height: 726px;
+/* min-height: 726px; */
+    height: 100%;
     background-image: url(../img/bg.jpg);
     background-size: cover;
+    position: relative
     
 
 }
