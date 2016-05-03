@@ -9,13 +9,13 @@
         changeHash: true
     }); 
 
-    /* Navigation visible on Scroll */
+    /* Navigation visible on Scroll 
     mainNav();
     $(window).scroll(function () {
         mainNav();
     });
 
-   /* function mainNav() {
+    function mainNav() {
         var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
         if (top > 40) $('.sticky-navigation').stop().animate({
             "opacity": '1',
