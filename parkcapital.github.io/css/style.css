@@ -524,3 +524,7 @@ body:not(.device-touch) .button {
     color: white;
 }
 
+#thanks{
+    padding-top: 50px;
+}
+
