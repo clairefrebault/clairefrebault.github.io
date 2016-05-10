@@ -37,35 +37,43 @@ h1 {
 }
 
 h2 {
-  color: #323232;
+  color: #252839;
   font-size: 26px;
   line-height: 42px;
   letter-spacing: 1px;
   padding-bottom: 12px;
 }
 
-#counter h2{
-  color: #ffa400;
+#terms h2{
+  color: #e6cf8b;
   font-size: 26px;
   line-height: 42px;
   letter-spacing: 1px;
-    margin-bottom: 0;
+    margin-bottom: 15px;
 }
 
-#counter h3{
+#terms h3{
     margin-top: 0;
     margin-bottom: 20px;
 }
 
+#terms p{
+    color: #252839;
+    font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 1px;
+    margin-bottom: 15px;
+}
 h3 {
-  color: #ffa400;
+  color: #e6cf8b;
   font-size: 16px;
   letter-spacing: 26px;
   letter-spacing: 2px;
 }
 
 h5 {
-  color: #ffa400;
+  color: #e6cf8b;
   line-height: 28px;
   letter-spacing: 2px;
 }
@@ -80,19 +88,19 @@ p {
 
 /* All Section styles
 ------------------------------------- */
-#testimonial, #blog, #counter, #contact {
+#testimonial, #blog, #contact {
    	padding-top: 120px;
   	padding-bottom: 120px;
+}
+#terms{
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 #offer h3 {
   	padding-bottom: 12px;
 }
 
-/*.parallax-section {
-  	background-attachment: fixed !important;
-  	background-size: cover !important;
-}*/
 
 
 /* navigation styles
@@ -112,23 +120,23 @@ p {
   margin: 15px 20px;
 }
 .navbar-default .navbar-nav li a {
-    color: #303030;
+    color: #252839;
     font-size: 12px;
     font-weight: bold;
     padding: 0px;
   }
 .navbar-default .navbar-nav li a:hover {
-    color: #ffa400;
+    color: #e6cf8b;
   }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #303030;
+  color: #e6cf8b;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ffa400;
+  color: #e6cf8b;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -136,7 +144,7 @@ p {
      padding-top: 12px;
   }
 .navbar-default .navbar-toggle .icon-bar {
-    background: #ffa400;
+    background: #e6cf8b;
     border-color: transparent;
   }
 .navbar-default .navbar-toggle:hover,
@@ -166,12 +174,12 @@ p {
 }
 
 #home .btn-danger {
-  background: #ffa400 !important;
+  background: #e6cf8b !important;
   margin-right: 20px;
 }
 
 #home .btn-danger:hover {
-  background: #ffc400 !important;
+  background: #e6cf8b !important;
 }
 
 #home .btn {
@@ -186,7 +194,7 @@ p {
 }
 
 #home .btn:hover {
-  background: #ffa400;
+  background: #e6cf8b;
 }
 
 
@@ -270,23 +278,23 @@ p {
 
 /* Counter section styles
 /* ========================================== */
-#counter {
+#terms {
    /*background: url('../images/counter-bg.jpg') 50% 0 repeat-y fixed; */
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding-top: 160px;
-  padding-bottom: 160px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
-#counter .counter-number {
-  color: #ffa400;
+#terms .counter-number {
+  color: #e6cf8b;
   font-size: 32px;
 }
 
-#counter .counter-text {
-  color: #3c3c3c;
+#terms .counter-text {
+  color: #252839;
   letter-spacing: 2px;
 }
 
@@ -294,7 +302,7 @@ p {
 /* contact section styles
 /* ========================================== */
 #contact {
-  background: url('../images/mac-glasses.jpeg') 50% 0 repeat-y fixed;
+  background: url('../images/mac-glasses.jpeg');
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -313,7 +321,7 @@ p {
 }
 
 #contact input[type="submit"] {
-  background: #000000;
+  background: #252839;
   border:none;
   border-radius: 4px;
   font-weight: bold;
@@ -323,7 +331,7 @@ p {
 }
 
 #contact input[type="submit"]:hover {
-  background: #ffa400;
+  background: #e6cf8b;
 }
 
 .form-control::-moz-placeholder {
@@ -354,8 +362,8 @@ p {
 /* footer section styles
 /* ========================================== */
 footer {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 footer p {
@@ -365,16 +373,16 @@ footer p {
 }
 
 footer a {
-  color: #606060;
+  color: #252839;
 }
 
 footer a:hover {
-  color: #ffa400;
+  color: #e6cf8b;
   text-decoration: none;
 }
 
 .link-list a {
-  color: #606060;
+  color: #252839;
   display: block;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -389,7 +397,7 @@ footer a:hover {
   display: inline-block;
 }
 .social-icon li a {
-  background: #3c3c3c;
+  background: #252839;
   border-radius: 100%;
   color: #ffffff;
   font-size: 18px;
@@ -402,7 +410,7 @@ footer a:hover {
   margin-right: 2px;
 }
 .social-icon li a:hover {
-  background: #ffa400;
+  background: #e6cf8b;
 }
 
 
@@ -430,7 +438,7 @@ footer a:hover {
   h1 {
     font-size: 53px;
   }
-  #counter .counter-item {
+  #terms .counter-item {
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -483,25 +491,25 @@ footer a:hover {
 }
 
 .button-dark {
-    background-color: #606060;
+    background-color: #252839;
 }
 
 .button-dark:hover{
-    background-color: #262626;
+    background-color: #677077;
 }
 
 .full-button {
     text-transform: uppercase;
 }
 
-.green-slash {
+.gold-slash {
     margin: auto 10px;
     font-size: 40xpx;
-    color: #ffa400;
+    color: #e6cf8b;
 }
 
-.green-color {
-    color: #ffa400;
+.gold-color {
+    color: #e6cf8b;
 }
 
 a {
@@ -518,7 +526,7 @@ body:not(.device-touch) .button {
 }
 
 .grey{
-    background-color: #606060;
+    background-color: #252839;
 }
 .grey p{
     color: white;
@@ -528,3 +536,38 @@ body:not(.device-touch) .button {
     padding-top: 50px;
 }
 
+.typeform-widget{
+    margin-top: 100px;
+}
+
+
+.questions{
+    margin-top: 100px;
+}
+
+#process{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#process .process-text {
+  color: #252839;
+  letter-spacing: 2px;
+}
+
+#process a{
+    color: #e6cf8b;
+}
+
+.circle{
+width:120px;
+height:120px;
+border-radius:50%;
+font-size:60px;
+color:#fff;
+line-height:120px;
+text-align:center;
+background:#e6cf8b;
+display:inline-block;
+}
