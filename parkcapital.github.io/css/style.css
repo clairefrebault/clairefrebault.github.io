@@ -45,7 +45,7 @@ h2 {
 }
 
 #terms h2{
-  color: #e6cf8b;
+  color: #ffd900;
   font-size: 26px;
   line-height: 42px;
   letter-spacing: 1px;
@@ -55,6 +55,7 @@ h2 {
 #terms h3{
     margin-top: 0;
     margin-bottom: 20px;
+    color: #ffd900;
 }
 
 #terms p{
@@ -66,14 +67,14 @@ h2 {
     margin-bottom: 15px;
 }
 h3 {
-  color: #e6cf8b;
+  color: #00ccd6;
   font-size: 16px;
   letter-spacing: 26px;
   letter-spacing: 2px;
 }
 
 h5 {
-  color: #e6cf8b;
+  color: #00ccd6;
   line-height: 28px;
   letter-spacing: 2px;
 }
@@ -126,17 +127,17 @@ p {
     padding: 0px;
   }
 .navbar-default .navbar-nav li a:hover {
-    color: #e6cf8b;
+    color: #00ccd6;
   }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #e6cf8b;
+  color: #00ccd6;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #e6cf8b;
+  color: #00ccd6;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -144,7 +145,7 @@ p {
      padding-top: 12px;
   }
 .navbar-default .navbar-toggle .icon-bar {
-    background: #e6cf8b;
+    background: #00ccd6;
     border-color: transparent;
   }
 .navbar-default .navbar-toggle:hover,
@@ -174,27 +175,26 @@ p {
 }
 
 #home .btn-danger {
-  background: #e6cf8b !important;
-  margin-right: 20px;
+  background: #00ccd6 !important;
 }
 
 #home .btn-danger:hover {
-  background: #e6cf8b !important;
+  background: #252839 !important;
 }
 
 #home .btn {
   background: #000000;
   border-color: transparent;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 25px;
   font-weight: bold;
   padding: 14px 52px;
-  margin-top: 40px;
+  margin-top: 25px;
   transition: all 0.4s ease-in-out;
 }
 
 #home .btn:hover {
-  background: #e6cf8b;
+  background: #252839;
 }
 
 
@@ -289,7 +289,7 @@ p {
 }
 
 #terms .counter-number {
-  color: #e6cf8b;
+  color: #ffd900;
   font-size: 32px;
 }
 
@@ -331,7 +331,7 @@ p {
 }
 
 #contact input[type="submit"]:hover {
-  background: #e6cf8b;
+  background: #00ccd6;
 }
 
 .form-control::-moz-placeholder {
@@ -377,7 +377,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #e6cf8b;
+  color: #00ccd6;
   text-decoration: none;
 }
 
@@ -387,32 +387,6 @@ footer a:hover {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-
-.social-icon {
-  padding: 0;
-  margin: 0;
-}
-.social-icon li {
-  list-style: none;
-  display: inline-block;
-}
-.social-icon li a {
-  background: #252839;
-  border-radius: 100%;
-  color: #ffffff;
-  font-size: 18px;
-  line-height: 32px;
-  width: 32px;
-  height: 32px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.4s ease-in-out;
-  margin-right: 2px;
-}
-.social-icon li a:hover {
-  background: #e6cf8b;
-}
-
 
 
 @media (max-width: 1280px) {
@@ -442,7 +416,10 @@ footer a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  
+    #process .process-item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -505,11 +482,11 @@ footer a:hover {
 .gold-slash {
     margin: auto 10px;
     font-size: 40xpx;
-    color: #e6cf8b;
+    color: #ffd900;
 }
 
 .gold-color {
-    color: #e6cf8b;
+    color: #ffd900;
 }
 
 a {
@@ -557,7 +534,7 @@ body:not(.device-touch) .button {
 }
 
 #process a{
-    color: #e6cf8b;
+    color: #ffd900;
 }
 
 .circle{
@@ -568,6 +545,6 @@ font-size:60px;
 color:#fff;
 line-height:120px;
 text-align:center;
-background:#e6cf8b;
+background:#ffd900;
 display:inline-block;
 }
