@@ -137,6 +137,13 @@ background: linear-gradient(90deg, #20FFFF, #206BFF);
     color: white;
 }
 
+a{
+    color: #78E3FD;
+}
+
+a:hover{
+    color: #206BFF;
+}
 
 
 footer{
