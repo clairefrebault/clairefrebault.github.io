@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+}
+#page{
+    width: 100%;
+}
+body{
+    background-color: white;
+    margin: 0px;
+   padding: 0px;
+   outline: 0px;
+}
+footer{
+    border: 0px;
+    background-color: #EEF8FF;
+    border-radius: 0px;
+    
+}
+
+html, body {
+  padding:0;
+  margin:0;
+    height: 100%;
+}
+
+
+/* NAVBAR */
+
+.container-fluid{
+    max-width: 1200px;
+}
+nav ul{
+    width: 100%;
+}
+li{
+    padding: 0 97px;
+    height: 30px;
+    line-height: 30px;
+}
+li a{
+    font-family: 'Montserrat'; !important
+}
+.navbar-default .navbar-nav > li > a {
+    color: #78E3FD;
+    font-size: medium;
+    display: inline-block;
+    padding: 10px;
+    line-height: 20px;
+
+}
+
+/* BURGER MENU */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #206BFF;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+    background-color: #78E3FD;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #206BFF;
+}
+.navbar-default .navbar-toggle:hover .icon-bar{
+    background-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: block;
+        float: none;
+        vertical-align: top;
+    }
+}
+.navbar-nav {
+    margin: 5px;
+}
+.navbar-default {
+    border: 0px;
+    background-color: #EEF8FF;
+    border-radius: 0px;
+}
+#main-menu{
+    background-color: #EEF8FF!important;}
+.navbar-default .navbar-nav > li > a:hover, .active > a, .active {
+    color: #206BFF !important;
+    background-color: #EEF8FF!important;
+    font-weight: bold;
+    border-bottom: 1px #206BFF;
+    transition: ease 0,3s;
+    display: inline-block;
+}
+.active{
+    color:#206BFF !important;
+}
+
+
+
+
+
+/* BIENVENUE */
+
+#home h1{
+    color:#EEF8FF;
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+}
+#home h2{
+    color:#EEF8FF;
+    text-align: center;
+    line-height: 2;
+}
+#home{
+/* min-height: 726px; */
+    background-image: url(../img/bg.jpg);
+    
+          -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+    
+
+}
+
+/* PROJETS */
+
+.projet{
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+.a-box{
+    display: inline-block;
+	position: relative;
+	overflow: hidden;
+	background: white;
+	transition: background 0.3s ease-in-out;
+    
+}
+.a-box:hover {
+    background: #206BFF;
+}
+.a-box img {
+	display: block;
+	max-width: 100%;
+	transition: transform 0.3s ease-in-out;
+}
+.a-box:hover img {
+	transform: translateX(100%);
+}
+.a-box:hover .hover-text {
+	display:block;
+}
+.hover-text {
+	display:none;
+    position:absolute;
+    height:100%;
+    top:0;
+    width:100%;
+    text-align:center;
+    color: white;
+    
+}
+
+/* STYLES TITRES */
+h1{
+    font-size: 400%;
+    color: #78E3FD;
+}
+
+h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+h5{
+    margin-top: 20px;
+}
+
+
+
+
+/* BTN */
+
+.btn-default{
+    color: white;
+}
+.btn-custom{
+    border-radius: 10px;
+    background-color: #78E3FD;
+    text-align: center;
+    border: 0px;
+    padding: 20px;
+    font-size: 23px;
+}
+.btn-custom:hover{
+    border-radius: 10px;
+    background-color: #206BFF;
+    text-align: center;
+    border: 0px;
+    padding: 20px;
+    color: white;
+    font-size: 23px;
+    transition: 200ms ease-in-out; 
+}
+
+/* À PROPOS SECTION */
+
+.btn-cv{
+    border-radius: 5px;
+    background-color: #78E3FD;
+    text-align: center;
+    border: 0px;
+    padding: 10px;
+    font-size: 15px;
+}
+.btn-cv:hover{
+    border-radius: 5px;
+    background-color: #206BFF;
+    text-align: center;
+    border: 0px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    transition: 200ms ease-in-out; 
+}
+.about > p{
+    line-height: 25px;
+}
+
+
+.fa{
+    padding: 0 0 0 20px;
+    color: #78E3FD;
+}
+.fa:hover{
+    padding: 0 0 0 20px;
+    color: #206BFF;
+    transition: 200ms ease-in-out; 
+}
+.cv{
+    float: left;
+    padding-left: 20px;
+}
+.links{
+    float:left;
+}
+.liens{
+    float: right;
+}
